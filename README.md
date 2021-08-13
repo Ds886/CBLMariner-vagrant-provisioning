@@ -27,7 +27,7 @@ vagrant up
 ```
 1. SSH to the machine using vagrant ssh.
 1. A git repositry will be up and ready under /opt/CBL-Mariner(stable). In addition there will be a build script under /opt/build that take a configuration image based on the environment variable *image* in case the desired result is appending to an autodeployment of an image
-1. For manual instructions see (Microsoft documentation)[https://github.com/microsoft/CBL-Mariner/blob/1.0/toolkit/docs/building/building.md#toolchain-stage]
+1. For manual instructions see [Microsoft documentation](https://github.com/microsoft/CBL-Mariner/blob/1.0/toolkit/docs/building/building.md#toolchain-stage)
 
 # Known issues and particularites
 * Due to the existing logging method error is not being pushed to the stderr can probably be fixed but wasn't within the scope of the initial release
